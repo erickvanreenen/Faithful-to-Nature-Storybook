@@ -1,0 +1,11 @@
+image: node:20
+
+pages:
+  script:
+    - npm ci
+    - npm run build-storybook -- --output-dir public
+  artifacts:
+    paths:
+      - public
+  only:
+    - main

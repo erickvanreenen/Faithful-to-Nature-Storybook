@@ -1,0 +1,146 @@
+/**
+ * Faithful to Nature — Design Tokens
+ * ------------------------------------
+ * Source of truth: Figma FTN Component Library
+ * Extracted directly from Figma local styles.
+ * Do NOT edit values here manually — update in Figma first.
+ *
+ * Last synced: 2026-05-28
+ */
+
+:root {
+
+  /* =====================
+     COLOUR TOKENS
+     ===================== */
+
+  /* Brand — Greens */
+  --color-ftn-green:        #006654;  /* Primary CTA, headings, key UI */
+  --color-aqua-deep:        #204B4A;  /* Dark accent, rich backgrounds */
+  --color-cactus:           #C3F4D9;  /* Light mint surface */
+  --color-soft-tones-2:     #D9EDE7;  /* Soft green fill, card surfaces */
+
+  /* Neutrals */
+  --color-grey-1:           #6B6B69;  /* Body text, secondary UI */
+  --color-grey-2:           #C2C2C2;  /* Borders, dividers, disabled */
+  --color-grey-3:           #EDEDED;  /* Subtle backgrounds, hover states */
+  --color-grey-4:           #F3F4F8;  /* Page backgrounds, card fills */
+  --color-page-bg:          #F6F5F1;  /* Catalogue & listing page background */
+  --color-white:            #FFFFFF;  /* Primary surface, text on dark */
+  --color-black:            #000000;  /* Pure black */
+
+  /* Accents */
+  --color-orange:           #D46327;  /* Sale labels, badges, promos */
+  --color-orange-warm:      #D77929;  /* Warm burnt orange accent */
+  --color-navy:             #1A4170;  /* Health value, info, links */
+  --color-cream:            #FFF6D1;  /* Soft warm background */
+
+  /* Semantic / Backgrounds */
+  --color-bg-health:        #D4EBF9;  /* Health pill background */
+  --color-bg-env:           #EAF7C9;  /* Environment pill background */
+
+
+  /* =====================
+     TYPOGRAPHY TOKENS
+     ===================== */
+
+  --font-family-base: 'Proxima Nova', 'Open Sans', sans-serif;
+
+  /* Font weights */
+  --font-weight-regular:   400;
+  --font-weight-semibold:  600;
+  --font-weight-bold:      700;
+
+  /* Desktop type scale (1440px) */
+  --font-size-desktop-h1:     38px;  /* Bold  — line-height: 120% */
+  --font-size-desktop-h2:     30px;  /* Bold  — line-height: 120% */
+  --font-size-desktop-h3:     24px;  /* Bold  — line-height: 125% */
+  --font-size-desktop-h4:     20px;  /* Bold  — line-height: 130% */
+  --font-size-desktop-h5:     18px;  /* Bold  — line-height: 135% */
+  --font-size-desktop-h6:     16px;  /* Bold  — line-height: 140% */
+  --font-size-desktop-h7:     16px;  /* Semibold — line-height: 140% */
+
+  --font-size-desktop-body-1: 16px;  /* line-height: 150% */
+  --font-size-desktop-body-2: 14px;  /* line-height: 150% */
+  --font-size-desktop-body-3: 12px;  /* line-height: 145% */
+
+  --font-size-desktop-link-1: 14px;  /* line-height: 140% */
+  --font-size-desktop-link-2: 12px;  /* line-height: 140% */
+
+  --font-size-desktop-btn-1:  12px;  /* Bold, -2% letter-spacing */
+  --font-size-desktop-btn-2:  10px;  /* Bold, -2% letter-spacing */
+  --font-size-desktop-label:  10px;  /* Semibold */
+
+  /* Mobile type scale (390px) */
+  --font-size-mobile-h1:      20px;  /* Bold  — line-height: 125% */
+  --font-size-mobile-h2:      18px;  /* Bold  — line-height: 130% */
+  --font-size-mobile-h3:      16px;  /* Bold  — line-height: 135% */
+  --font-size-mobile-h4:      14px;  /* Bold  — line-height: 140% */
+  --font-size-mobile-h5:      13px;  /* Bold  — line-height: 140% */
+  --font-size-mobile-h6:      12px;  /* Bold — line-height: 145% */
+  --font-size-mobile-h7:      12px;  /* Semibold — line-height: 145% */
+
+  --font-size-mobile-body-1:  14px;  /* line-height: 150% */
+  --font-size-mobile-body-2:  12px;  /* line-height: 150% */
+  --font-size-mobile-body-3:  11px;  /* line-height: 150% */
+
+  /* Line heights */
+  --line-height-120: 1.2;
+  --line-height-125: 1.25;
+  --line-height-130: 1.3;
+  --line-height-135: 1.35;
+  --line-height-140: 1.4;
+  --line-height-145: 1.45;
+  --line-height-150: 1.5;
+
+  /* Letter spacing */
+  --letter-spacing-default:  0;
+  --letter-spacing-tight:    -0.02em;
+
+
+  /* =====================
+     SPACING TOKENS
+     ===================== */
+
+  --spacer-10:  4px;
+  --spacer-9:   8px;
+  --spacer-8:  12px;
+  --spacer-7:  16px;
+  --spacer-6:  24px;
+  --spacer-5:  32px;
+  --spacer-4:  40px;
+  --spacer-3:  48px;
+  --spacer-2:  56px;
+  --spacer-1:  64px;
+
+
+  /* =====================
+     BORDER RADIUS TOKENS
+     ===================== */
+
+  --radius-none:    0px;
+  --radius-default: 4px;    /* All generic containers */
+  --radius-card:    6px;    /* Product cards only */
+  --radius-full:    9999px; /* Pill buttons, badge chips */
+
+
+  /* =====================
+     BUTTON TOKENS
+     ===================== */
+
+  --btn-height:           32px;
+  --btn-padding-v:         8px;
+  --btn-padding-h:        16px;
+  --btn-font-size:        12px;
+  --btn-font-weight:      var(--font-weight-bold);
+  --btn-letter-spacing:   var(--letter-spacing-tight);
+  --btn-radius:           var(--radius-default);
+
+  --btn-primary-bg:       var(--color-ftn-green);
+  --btn-primary-color:    var(--color-white);
+
+  --btn-secondary-bg:     var(--color-white);
+  --btn-secondary-color:  var(--color-ftn-green);
+  --btn-secondary-border: 1px solid var(--color-ftn-green);
+
+  --btn-hover-overlay:    rgba(0, 0, 0, 0.
