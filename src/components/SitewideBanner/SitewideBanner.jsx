@@ -3,10 +3,10 @@
  * Sourced from live site: innovate.faithful-to-nature.co.za
  *
  * Specs:
- *   Height:     38px
- *   Background: --color-ftn-green (#006654)
+ *   Height:     40px
+ *   Background: --color-aqua-deep (#204B4A) — FtN spec: dark surfaces / announcement bar use Aqua Green
  *   Text:       14px, Regular, white
- *   Links:      14px, Bold, #F8AF44 (amber)
+ *   Links:      14px, Bold, white, underlined (amber #F8AF44 is off-palette and fails contrast)
  *   Layout:     two messages side by side, space-between, full width
  */
 
@@ -36,7 +36,7 @@ const BannerMessage = ({ icon, text, link }) => (
   <div style={{
     display:    'flex',
     alignItems: 'center',
-    gap:        '10px',
+    gap:        '8px',
     color:      'var(--color-white)',
     fontFamily: 'var(--font-family-base)',
     fontSize:   '14px',
@@ -46,7 +46,7 @@ const BannerMessage = ({ icon, text, link }) => (
     <span>
       {text}
       {link && (
-        <a href={link.href} style={{ color: '#F8AF44', fontWeight: 'var(--font-weight-bold)', textDecoration: 'none' }}>
+        <a href={link.href} style={{ color: 'var(--color-white)', fontWeight: 'var(--font-weight-bold)', textDecoration: 'underline' }}>
           {link.label}
         </a>
       )}
@@ -70,8 +70,8 @@ export const SitewideBanner = ({
 }) => (
   <div style={{
     width:          '100%',
-    height:         '38px',
-    background:     'var(--color-ftn-green)',
+    height:         '40px',
+    background:     'var(--color-aqua-deep)',
     display:        'flex',
     alignItems:     'center',
     justifyContent: 'space-between',
