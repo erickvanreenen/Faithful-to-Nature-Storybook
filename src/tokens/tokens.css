@@ -25,12 +25,12 @@
   --color-grey-2:           #C2C2C2;  /* Borders, dividers, disabled */
   --color-grey-3:           #EDEDED;  /* Subtle backgrounds, hover states */
   --color-grey-4:           #F3F4F8;  /* Page backgrounds, card fills */
-  --color-page-bg:          #F6F5F1;  /* Catalogue & listing page background */
+  --color-page-bg:          #F3F4F8;  /* Catalogue & listing page background */
   --color-white:            #FFFFFF;  /* Primary surface, text on dark */
   --color-black:            #000000;  /* Pure black */
 
   /* Accents */
-  --color-orange:           #D46327;  /* Sale labels, badges, promos */
+  --color-orange:           #D77929;  /* Sale labels, badges, promos */
   --color-orange-warm:      #D77929;  /* Warm burnt orange accent */
   --color-navy:             #1A4170;  /* Health value, info, links */
   --color-cream:            #FFF6D1;  /* Soft warm background */

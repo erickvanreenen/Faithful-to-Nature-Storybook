@@ -9,7 +9,7 @@ export default {
   title:      'Design System / Filters',
   parameters: { layout: 'fullscreen' },
   decorators: [(Story) => (
-    <div style={{ background: '#F6F5F1', padding: '32px 48px', fontFamily: 'var(--font-family-base)' }}>
+    <div style={{ background: '#F3F4F8', padding: '32px 48px', fontFamily: 'var(--font-family-base)' }}>
       <Story />
     </div>
   )],
@@ -117,7 +117,7 @@ export const FullCatalogue = () => (
 );
 FullCatalogue.storyName = 'Full Catalogue Layout';
 FullCatalogue.decorators = [(Story) => (
-  <div style={{ background: '#F6F5F1', padding: '0 48px', fontFamily: 'var(--font-family-base)' }}>
+  <div style={{ background: '#F3F4F8', padding: '0 48px', fontFamily: 'var(--font-family-base)' }}>
     <Story />
   </div>
 )];

@@ -14,7 +14,7 @@ const colours = [
     { name: 'Black',   token: '--color-black',  hex: '#000000' },
   ]},
   { group: 'Accents', tokens: [
-    { name: 'Orange',      token: '--color-orange',      hex: '#D46327' },
+    { name: 'Orange',      token: '--color-orange',      hex: '#D77929' },
     { name: 'Orange Warm', token: '--color-orange-warm', hex: '#D77929' },
     { name: 'Navy',        token: '--color-navy',        hex: '#1A4170' },
     { name: 'Cream',       token: '--color-cream',       hex: '#FFF6D1' },
